@@ -16,35 +16,6 @@ import { Checkbox } from "@/components/ui/checkbox";
 import axiosInstance from "@/utils/axiosInstance.ts";
 
 function Stepper() {
-  // const [stepData, setStepsData] = useState([
-  //   {
-  //     BussinessName: "",
-  //     Industry: "",
-  //   },
-  //   {
-  //     companySize: "",
-  //     GeographicFocus: "",
-  //   },
-  //   {
-  //     CustomerType: "",
-  //     TargetMarketSize: "",
-  //   },
-  //   {
-  //     PrimaryGoal: "",
-  //     BrandTone: "",
-  //   },
-  //   {
-  //     Leads: "",
-  //     AverageTimeSpendPerlead: "",
-  //     HourlyRate: "",
-  //     HiringAnyone: false,
-  //     EstimatedMonthlySpend: "",
-  //     ValueOf1NewCustomer: "",
-  //   },
-  //   {
-  //     ChannelStrategy: [],
-  //   },
-  // ]);
   
   
   const [stepCount, setStepCount] = useState(1);
@@ -106,6 +77,7 @@ function Stepper() {
         setHiringAnyone(false);
         setEstimatedMonthlySpend("");
         setValueOf1NewCustomer("");
+        alert("Data Submitted succesfully")
       }
     } catch (error) {}
   }
@@ -192,14 +164,6 @@ function Stepper() {
                   <div className="flex item-center">
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       6
-                    </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
-                      <div
-                        className="h-full bg-blue-600 transition-all duration-300"
-                        style={{
-                          width: "0%",
-                        }}
-                      ></div>
                     </div>
                   </div>
                 </div>
@@ -369,7 +333,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       1
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -434,14 +398,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       6
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
-                      <div
-                        className="h-full bg-blue-600 transition-all duration-300"
-                        style={{
-                          width: "0%",
-                        }}
-                      ></div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -621,7 +578,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       1
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -634,7 +591,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       2
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -685,14 +642,6 @@ function Stepper() {
                   <div className="flex item-center">
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       6
-                    </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
-                      <div
-                        className="h-full bg-blue-600 transition-all duration-300"
-                        style={{
-                          width: "0%",
-                        }}
-                      ></div>
                     </div>
                   </div>
                 </div>
@@ -869,7 +818,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       1
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -882,7 +831,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       2
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -895,7 +844,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       3
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -933,14 +882,6 @@ function Stepper() {
                   <div className="flex item-center">
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       6
-                    </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
-                      <div
-                        className="h-full bg-blue-600 transition-all duration-300"
-                        style={{
-                          width: "0%",
-                        }}
-                      ></div>
                     </div>
                   </div>
                 </div>
@@ -1110,7 +1051,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       1
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1123,7 +1064,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       2
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1136,7 +1077,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       3
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1149,7 +1090,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       4
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1174,14 +1115,6 @@ function Stepper() {
                   <div className="flex item-center">
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       6
-                    </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
-                      <div
-                        className="h-full bg-blue-600 transition-all duration-300"
-                        style={{
-                          width: "0%",
-                        }}
-                      ></div>
                     </div>
                   </div>
                 </div>
@@ -1580,11 +1513,11 @@ function Stepper() {
             >
               <div className="mb-8">
                 <div className="flex items-center justify-between mb-6">
-                  <div className="flex item-center">
+                  <div className="flex item-center ">
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       1
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1597,7 +1530,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       2
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1610,7 +1543,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       3
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1623,7 +1556,7 @@ function Stepper() {
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       4
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1632,11 +1565,11 @@ function Stepper() {
                       ></div>
                     </div>
                   </div>
-                  <div className="flex item-center">
+                  <div className="flex item-center ">
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
                       5
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
+                    <div className="w-full h-1 mx-2 bg-green-400">
                       <div
                         className="h-full bg-blue-600 transition-all duration-300"
                         style={{
@@ -1647,16 +1580,9 @@ function Stepper() {
                   </div>
                   <div className="flex item-center">
                     <div className="w-8 h-8 rounded-full flex item-center justify-center bg-blue-600 text-white">
-                      6
+                      <span className="pt-1">6</span>
                     </div>
-                    <div className="w-full h-1 mx-2 bg-gray-200">
-                      <div
-                        className="h-full bg-blue-600 transition-all duration-300"
-                        style={{
-                          width: "0%",
-                        }}
-                      ></div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
