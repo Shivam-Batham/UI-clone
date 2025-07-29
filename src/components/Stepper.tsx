@@ -44,6 +44,12 @@ function Stepper() {
 
   async function handleSubmit() {
     try {
+      
+      if(businessName.trim()==""){
+        alert("businessName is required");
+        return;
+      }
+
       const response = await axiosInstance.post("/api/stepData", {
         BussinessName: businessName,
         Industry: industry,
